@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "importsNotUsedAsValues": "remove",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "ignoreDeprecations": "5.0"
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
